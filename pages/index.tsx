@@ -14,6 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export default function Home() {
+  const a = 1;
   return (
     <>
       <Head>
@@ -78,7 +79,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Documentation
+              Documentation {a}
             </a>
           </div>
         </main>

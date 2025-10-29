@@ -13,6 +13,8 @@ const eslintConfig = defineConfig([
     "build/**",
     "next-env.d.ts",
   ]),
+  // Ensure Prettier is last so it can disable conflicting rules from other configs.
+  "prettier",
 ]);
 
 export default eslintConfig;
